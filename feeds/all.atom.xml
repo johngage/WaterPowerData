@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>waterpower</title><link href="http://example.com/" rel="alternate"></link><link href="http://example.com/feeds/all.atom.xml" rel="self"></link><id>http://example.com/</id><updated>2018-09-02T08:40:00-07:00</updated><entry><title>Jupyter Notebooks as Pelican pages</title><link href="http://example.com/Jupyter%20notebooks.html" rel="alternate"></link><published>2018-09-02T07:40:00-07:00</published><updated>2018-09-02T08:40:00-07:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-09-02:/Jupyter notebooks.html</id><summary type="html">&lt;p&gt;This is the third post of a series of posts. It will show series an jupyter&amp;nbsp;notebook.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This post contains a jupyter&amp;nbsp;notebook.&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="k"&gt;2&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
+
+
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;1&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;This is &lt;em&gt;very important&lt;/em&gt; and &lt;strong&gt;very&amp;nbsp;powerful&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#August 10, 2018&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[4]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.request&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;
+
+&lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://pythonscraping.com/pages/page1.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;headers&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;b&amp;#39;&amp;lt;html&amp;gt;\n&amp;lt;head&amp;gt;\n&amp;lt;title&amp;gt;A Useful Page&amp;lt;/title&amp;gt;\n&amp;lt;/head&amp;gt;\n&amp;lt;body&amp;gt;\n&amp;lt;h1&amp;gt;An Interesting Title&amp;lt;/h1&amp;gt;\n&amp;lt;div&amp;gt;\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n&amp;lt;/div&amp;gt;\n&amp;lt;/body&amp;gt;\n&amp;lt;/html&amp;gt;\n&amp;#39;
+Date: Fri, 10 Aug 2018 17:47:30 GMT
+Server: Apache
+Last-Modified: Sat, 09 Jun 2018 19:15:58 GMT
+ETag: &amp;#34;4121bc8-234-56e3a58b39172&amp;#34;
+Accept-Ranges: bytes
+Content-Length: 564
+Cache-Control: max-age=1209600
+Expires: Fri, 24 Aug 2018 17:47:30 GMT
+Connection: close
+Content-Type: text/html
+
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[24]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!pip install beautifulsoup4  #Requirement already satisfied:&lt;/span&gt;
+&lt;span class="c1"&gt;#!pip install lxml  #Requirement already satisfied: lxml in /Users/JohnGage/anaconda3/lib/python3.6/site-packages (4.1.1)&lt;/span&gt;
+&lt;span class="c1"&gt;#!pip install html5lib #Requirement already satisfied: html5lib in /Users/JohnGage/anaconda3/lib/python3.6/site-packages (1.0.1)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;Requirement already satisfied: html5lib in /Users/JohnGage/anaconda3/lib/python3.6/site-packages (1.0.1)
+Requirement already satisfied: six&amp;gt;=1.9 in /Users/JohnGage/anaconda3/lib/python3.6/site-packages (from html5lib) (1.11.0)
+Requirement already satisfied: webencodings in /Users/JohnGage/anaconda3/lib/python3.6/site-packages (from html5lib) (0.5.1)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[12]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.request&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;bs4&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;
+
+&lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://www.pythonscraping.com/pages/page1.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;bs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html.parser&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;bs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;bs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;div&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;&amp;lt;h1&amp;gt;An Interesting Title&amp;lt;/h1&amp;gt;
+&amp;lt;div&amp;gt;
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&amp;lt;/div&amp;gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[28]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;bs1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;html5lib&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;bs1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;bs1&lt;/span&gt;
+&lt;span class="n"&gt;html&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt output_prompt"&gt;Out[28]:&lt;/div&gt;
+
+
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;&amp;lt;http.client.HTTPResponse at 0x1076f5dd8&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[37]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.request&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.error&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;HTTPError&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.error&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;URLError&lt;/span&gt;
+&lt;span class="c1"&gt;#Use this as a function, text calls it &amp;quot;getSiteHTML&amp;quot;&lt;/span&gt;
+&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="c1"&gt;#html = urlopen(&amp;quot;https://pythonscrapingthisurldoesnotexist.com&amp;quot;)&lt;/span&gt;
+    &lt;span class="c1"&gt;#html = urlopen(&amp;quot;https://xiowater.com/kibera&amp;quot;)#/ajax/v2/getSioStatus.php?&amp;quot;)&lt;/span&gt;
+    &lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://xiowater.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;#/ajax/v2/getSioStatus.php?&amp;quot;)&lt;/span&gt;
+&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="n"&gt;HTTPError&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;The server returned an HTTP error&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="n"&gt;URLError&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;The server could not be found!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;The server could not be found!
+&amp;lt;urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)&amp;gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[12]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.request&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.error&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;HTTPError&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;bs4&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;getTitle&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;urlopen&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="n"&gt;HTTPError&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+    &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;bsObj&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BeautifulSoup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;lxml&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bsObj&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;body&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;h1&lt;/span&gt;
+    &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;AttributeError&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;title&lt;/span&gt;
+
+
+&lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;getTitle&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;http://www.pythonscraping.com/pages/page1.html&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Title could not be found&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;&amp;lt;h1&amp;gt;An Interesting Title&amp;lt;/h1&amp;gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+ 
+
+&lt;/p&gt;</content><category term="jupyter"></category><category term="pelican"></category></entry><entry><title>KTC Diagram:Clean Water</title><link href="http://example.com/ktc-diagramclean-water.html" rel="alternate"></link><published>2018-08-31T00:00:00-07:00</published><updated>2018-08-31T00:00:00-07:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-08-31:/ktc-diagramclean-water.html</id><summary type="html">&lt;p&gt;Overview&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Water and Power Examples of Data&amp;nbsp;Analysis&lt;/h2&gt;
+&lt;h3&gt;Kibera Town Centre Water&amp;nbsp;Utility&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://example.com/images/KTCWater.jpg"&gt;Diagram of &lt;span class="caps"&gt;KTC&lt;/span&gt; Potable Water Treatment&lt;/a&gt;
+&lt;a href="http://example.com/pdf/KTCWaterTreatment.pdf"&gt;Overall&amp;nbsp;Diagram&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This site should hold vast lists of data.
+&lt;a href="http://localhost:/Users/JohnGage/repos/PelicanGuide"&gt;Overall log of&amp;nbsp;installation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;local, regional, &lt;span class="caps"&gt;US&lt;/span&gt;, and international water and power&amp;nbsp;data&lt;/p&gt;</content><category term="Info"></category><category term="Pages"></category></entry><entry><title>KTC Water Data</title><link href="http://example.com/ktc-water-data.html" rel="alternate"></link><published>2018-08-31T00:00:00-07:00</published><updated>2018-08-31T00:00:00-07:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-08-31:/ktc-water-data.html</id><summary type="html">&lt;h2&gt;How to understand water flows in&amp;nbsp;Kibera&lt;/h2&gt;
+&lt;p&gt;There are only ten (10) numbers that are captured about water flow that are useful for the dashboard at the&amp;nbsp;moment.&lt;/p&gt;
+&lt;p&gt;If you have other information, please share&amp;nbsp;it.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The hand-entered daily visual reading of the official water meter, known as the &lt;span class="caps"&gt;WEDC&lt;/span&gt; meter.  Though there are manual entry errors, and gaps, this shows about 1,500 entries over&amp;nbsp;time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Today’s reading was 70,029 liters pumped.  The daily average for the 218 days of 2018 is 70,900 liters a day. That’s on the&amp;nbsp;Googlesheet.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;XIO&lt;/span&gt; readings of:
+2. Borehole Pump electrical current in amps: about 200,000 readings so far this year
+3. Borehole flow in liters per minute: about 200,000 readings so far this year
+4. Borehole tank level in meters: about 200,000 readings so far this year
+5: &lt;span class="caps"&gt;KTC&lt;/span&gt; clean water pump electrical current in amps: about 200,000 readings this year
+6. &lt;span class="caps"&gt;KTC&lt;/span&gt; Potable Water tank level in meters;
+The other 15 &lt;span class="caps"&gt;XIO&lt;/span&gt; data feeds: hot water pump current, mezzanine tank level, etc, are not clearly labeled or&amp;nbsp;calibrated.&lt;/p&gt;
+&lt;p&gt;For the energy-estimating &lt;span class="caps"&gt;HOMER&lt;/span&gt; model, we are moving some of the electrical current sensors to measure overall &lt;span class="caps"&gt;KTC&lt;/span&gt; power usage, and then measure a few feeds&amp;nbsp;separately.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The hand-entered Point of Sale numbers for jerry-can water sales, either at &lt;span class="caps"&gt;KTC&lt;/span&gt; or at the 10,000-liter tank at Olympic Primary.
+These show sales of a few dozens of jerry cans.  Fifty jerry cans is 1000 liters, so we sell a few thousand liters by jerry can,&amp;nbsp;maximum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The hand-entered Point of Sale numbers for bowser, or water-truck sales. These have dropped to almost zero, but have reached sales of ten or twenty thousand liters per&amp;nbsp;day.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimates of water flow to Olympic School proper.  Unclear to me where this data is held, and how it is acquired. I think Robert said he put a meter on the new tank for Olympic, but I didn’t see it.  Please update with what you&amp;nbsp;observed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daily power outages, now running at five a day.  Over the past year, an average of two power outages a day, depending on how you treat outages that lasted several days. Clearly, this is the single dominant number for a dashboard attempting to capture how a service and retail business functions.  No power, no product, no revenue, no customers. No meaning to marketing or sales initiatives, sales numbers or expenditures if you have no lights, power, Internet, or water pumped to showers or&amp;nbsp;toilets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You mention other numbers that are&amp;nbsp;unfamiliar.&lt;/p&gt;
+&lt;p&gt;What do you mean by “total potable water”? Are you referring to the &lt;span class="caps"&gt;WEDC&lt;/span&gt; meter reading for borehole water pumped? Or total water processed to remove fluoride? That’s a different, smaller number, since we use unprocessed well water to flush the toilets. What is the source of the data? Where is the data&amp;nbsp;held?&lt;/p&gt;
+&lt;p&gt;What do you mean by  &amp;#8220;money earned from selling potable water at different kiosks”? What is this based on? Volume times price minus costs? There is an ancient spread sheet, manually entered, that made guesses in 2015 about costs and prices.  Bad idea to use any ancient estimated cost data to estimate “money earned”.  Might be useful to estimate “money received in payment”. What is the source, where is the data held?  It costs us about &lt;span class="caps"&gt;USD&lt;/span&gt; $ 0.60/ 1000 liters to pump the water from the borehole, about &lt;span class="caps"&gt;USD&lt;/span&gt; $ 2.50/ 1000 liters to process into potable&amp;nbsp;water.&lt;/p&gt;
+&lt;p&gt;What do you mean by &amp;#8220;water being supplied to the school”? How is this measured? What is the source, where is the data held?  What are the&amp;nbsp;numbers?&lt;/p&gt;
+&lt;p&gt;So, after your trip, can you give a clear picture of where 70,000 liters of water a day is&amp;nbsp;going?&lt;/p&gt;
+&lt;p&gt;It’s pretty clear that we process 20,000 liters of waste water a day from the showers and toilets.  Then we throw the 20,000 liters of expensive, treated water away.  It costs us about $2.50/ 1000 liters to process the water. That should be in the&amp;nbsp;dashboard.&lt;/p&gt;
+&lt;p&gt;So, where are the other &lt;span style="color:red"&gt; &lt;em&gt;50,900&lt;/em&gt; &lt;/span&gt; liters a day&amp;nbsp;going?&lt;/p&gt;
+&lt;p&gt;Exactly,&amp;nbsp;where?&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s been like this for three&amp;nbsp;years.&lt;/p&gt;
+&lt;p&gt;Here is a work in progress to capture the &lt;span class="caps"&gt;XIO&lt;/span&gt; data from the real-time &lt;span class="caps"&gt;XIO&lt;/span&gt; web site.   As you can see, one line of Python code brings in 525,000 readings at one-minute intervals of Borehole Pump current from 2017 and 2018.   Five lines, and we have all the &lt;span class="caps"&gt;XIO&lt;/span&gt; data we&amp;nbsp;need.&lt;/p&gt;
+&lt;h4&gt;&lt;span style="color:blue"&gt; &lt;em&gt;Links to Jupyter&amp;nbsp;Notebooks&lt;/em&gt; &lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span style="color:blue"&gt; &lt;a href="https://colab.research.google.com/drive/1XcQYlQx4mYPJjRZNO0gxnHKXhaJhBEgG#scrollTo=S6FGOF65K6Gd"&gt;Online Jupyter notebook analyzing &lt;span class="caps"&gt;XIO&lt;/span&gt;&amp;nbsp;data&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;How to understand water flows in&amp;nbsp;Kibera&lt;/h2&gt;
+&lt;p&gt;There are only ten (10) numbers that are captured about water flow that are useful for the dashboard at the&amp;nbsp;moment.&lt;/p&gt;
+&lt;p&gt;If you have other information, please share&amp;nbsp;it.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The hand-entered daily visual reading of the official water meter, known as the &lt;span class="caps"&gt;WEDC&lt;/span&gt; meter.  Though there are manual entry errors, and gaps, this shows about 1,500 entries over&amp;nbsp;time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Today’s reading was 70,029 liters pumped.  The daily average for the 218 days of 2018 is 70,900 liters a day. That’s on the&amp;nbsp;Googlesheet.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;XIO&lt;/span&gt; readings of:
+2. Borehole Pump electrical current in amps: about 200,000 readings so far this year
+3. Borehole flow in liters per minute: about 200,000 readings so far this year
+4. Borehole tank level in meters: about 200,000 readings so far this year
+5: &lt;span class="caps"&gt;KTC&lt;/span&gt; clean water pump electrical current in amps: about 200,000 readings this year
+6. &lt;span class="caps"&gt;KTC&lt;/span&gt; Potable Water tank level in meters;
+The other 15 &lt;span class="caps"&gt;XIO&lt;/span&gt; data feeds: hot water pump current, mezzanine tank level, etc, are not clearly labeled or&amp;nbsp;calibrated.&lt;/p&gt;
+&lt;p&gt;For the energy-estimating &lt;span class="caps"&gt;HOMER&lt;/span&gt; model, we are moving some of the electrical current sensors to measure overall &lt;span class="caps"&gt;KTC&lt;/span&gt; power usage, and then measure a few feeds&amp;nbsp;separately.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The hand-entered Point of Sale numbers for jerry-can water sales, either at &lt;span class="caps"&gt;KTC&lt;/span&gt; or at the 10,000-liter tank at Olympic Primary.
+These show sales of a few dozens of jerry cans.  Fifty jerry cans is 1000 liters, so we sell a few thousand liters by jerry can,&amp;nbsp;maximum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The hand-entered Point of Sale numbers for bowser, or water-truck sales. These have dropped to almost zero, but have reached sales of ten or twenty thousand liters per&amp;nbsp;day.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimates of water flow to Olympic School proper.  Unclear to me where this data is held, and how it is acquired. I think Robert said he put a meter on the new tank for Olympic, but I didn’t see it.  Please update with what you&amp;nbsp;observed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daily power outages, now running at five a day.  Over the past year, an average of two power outages a day, depending on how you treat outages that lasted several days. Clearly, this is the single dominant number for a dashboard attempting to capture how a service and retail business functions.  No power, no product, no revenue, no customers. No meaning to marketing or sales initiatives, sales numbers or expenditures if you have no lights, power, Internet, or water pumped to showers or&amp;nbsp;toilets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You mention other numbers that are&amp;nbsp;unfamiliar.&lt;/p&gt;
+&lt;p&gt;What do you mean by “total potable water”? Are you referring to the &lt;span class="caps"&gt;WEDC&lt;/span&gt; meter reading for borehole water pumped? Or total water processed to remove fluoride? That’s a different, smaller number, since we use unprocessed well water to flush the toilets. What is the source of the data? Where is the data&amp;nbsp;held?&lt;/p&gt;
+&lt;p&gt;What do you mean by  &amp;#8220;money earned from selling potable water at different kiosks”? What is this based on? Volume times price minus costs? There is an ancient spread sheet, manually entered, that made guesses in 2015 about costs and prices.  Bad idea to use any ancient estimated cost data to estimate “money earned”.  Might be useful to estimate “money received in payment”. What is the source, where is the data held?  It costs us about &lt;span class="caps"&gt;USD&lt;/span&gt; $ 0.60/ 1000 liters to pump the water from the borehole, about &lt;span class="caps"&gt;USD&lt;/span&gt; $ 2.50/ 1000 liters to process into potable&amp;nbsp;water.&lt;/p&gt;
+&lt;p&gt;What do you mean by &amp;#8220;water being supplied to the school”? How is this measured? What is the source, where is the data held?  What are the&amp;nbsp;numbers?&lt;/p&gt;
+&lt;p&gt;So, after your trip, can you give a clear picture of where 70,000 liters of water a day is&amp;nbsp;going?&lt;/p&gt;
+&lt;p&gt;It’s pretty clear that we process 20,000 liters of waste water a day from the showers and toilets.  Then we throw the 20,000 liters of expensive, treated water away.  It costs us about $2.50/ 1000 liters to process the water. That should be in the&amp;nbsp;dashboard.&lt;/p&gt;
+&lt;p&gt;So, where are the other &lt;span style="color:red"&gt; &lt;em&gt;50,900&lt;/em&gt; &lt;/span&gt; liters a day&amp;nbsp;going?&lt;/p&gt;
+&lt;p&gt;Exactly,&amp;nbsp;where?&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s been like this for three&amp;nbsp;years.&lt;/p&gt;
+&lt;p&gt;Here is a work in progress to capture the &lt;span class="caps"&gt;XIO&lt;/span&gt; data from the real-time &lt;span class="caps"&gt;XIO&lt;/span&gt; web site.   As you can see, one line of Python code brings in 525,000 readings at one-minute intervals of Borehole Pump current from 2017 and 2018.   Five lines, and we have all the &lt;span class="caps"&gt;XIO&lt;/span&gt; data we&amp;nbsp;need.&lt;/p&gt;
+&lt;h4&gt;&lt;span style="color:blue"&gt; &lt;em&gt;Links to Jupyter&amp;nbsp;Notebooks&lt;/em&gt; &lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span style="color:blue"&gt; &lt;a href="https://colab.research.google.com/drive/1XcQYlQx4mYPJjRZNO0gxnHKXhaJhBEgG#scrollTo=S6FGOF65K6Gd"&gt;Online Jupyter notebook analyzing &lt;span class="caps"&gt;XIO&lt;/span&gt;&amp;nbsp;data&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><category term="Water"></category></entry><entry><title>Data analysis links</title><link href="http://example.com/data-analysis-links.html" rel="alternate"></link><published>2018-08-30T00:00:00-07:00</published><updated>2018-08-30T00:00:00-07:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-08-30:/data-analysis-links.html</id><summary type="html">&lt;p&gt;Links to specific analysis&amp;nbsp;topics&lt;/p&gt;</summary><content type="html">&lt;h3&gt;What do we want to know about&amp;nbsp;Berkeley?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://example.com/pages/about.html"&gt;link to content&amp;nbsp;root&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="http://example.com/pdf/KTCWaterTreatment.pdf"&gt;link to content&amp;nbsp;root&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://example.com/pages/about.html"&gt;link to relative&amp;nbsp;file&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://example.com/pdf/KTCWaterTreatment.pdf"&gt;link to absolute content&amp;nbsp;root&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="http://example.com/pdf/KTCWaterTreatment.pdf"&gt;link to relative&amp;nbsp;file&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="http://example.com/images/KTCWater.jpg"&gt;link to content&amp;nbsp;root&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Tools that help us understand Berkeley: who lives here, who works here, who visits, and why?&lt;br&gt;
+What we have built in Berkeley to make our lives as healthy, happy, and productive as possible.
+What we have built in Berkeley to make us as innovative, as dedicated to our community, and as mutually supportive as&amp;nbsp;possible.&lt;/p&gt;</content><category term="Berkeley"></category></entry><entry><title>Data Analysts</title><link href="http://example.com/data-analysts.html" rel="alternate"></link><published>2018-08-30T00:00:00-07:00</published><updated>2018-09-01T23:30:00-07:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-08-30:/data-analysts.html</id><summary type="html">&lt;p&gt;Discipline&amp;nbsp;experts&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tags: python, pelican, blog, people
+Slug: water-people
+Authors:John Gage
+Series:example-post-series
+Series_index: 2
+Summary: First post about Water-specific&amp;nbsp;people&lt;/p&gt;
+&lt;h2&gt;Lists of discipline experts in data&amp;nbsp;exploration&lt;/h2&gt;
+&lt;p&gt;-
+-lists
+-more&amp;nbsp;lists&lt;/p&gt;
+&lt;h1&gt;&lt;span class="videobox"&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;            &lt;span class="nt"&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class="na"&gt;width=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;640&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;height=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;390&amp;quot;&lt;/span&gt;
+                &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;https://www.youtube.com/embed/https://www.youtube.com/watch?v=D0qlS1BRTLA[560]&amp;#39;&lt;/span&gt;
+                &lt;span class="na"&gt;frameborder=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;0&amp;#39;&lt;/span&gt; &lt;span class="err"&gt;webkitAllowFullScreen&lt;/span&gt; &lt;span class="err"&gt;mozallowfullscreen&lt;/span&gt;
+                &lt;span class="err"&gt;allowFullScreen&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;span class="videobox"&gt;
+                &lt;iframe width="640" height="390"
+                    src='https://www.youtube.com/embed/https://www.youtube.com/watch?v=D0qlS1BRTLA'
+                    frameborder='0' webkitAllowFullScreen mozallowfullscreen
+                    allowFullScreen&gt;
+                &lt;/iframe&gt;
+            &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="videobox"&gt;
+                &lt;iframe width="640" height="390"
+                    src='https://www.youtube.com/embed/https://www.youtube.com/watch?v=D0qlS1BRTLA'
+                    frameborder='0' webkitAllowFullScreen mozallowfullscreen
+                    allowFullScreen&gt;
+                &lt;/iframe&gt;
+            &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Here is John DeNero giving a &lt;span class="caps"&gt;DS&lt;/span&gt; 8 talk: &lt;span style="color:blue"&gt; &lt;a href="https://www.youtube.com/watch?v=D0qlS1BRTLA"&gt;Online video&amp;nbsp;data&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content><category term="Pages"></category></entry><entry><title>Data Analysts Projects</title><link href="http://example.com/data-analysts-projects.html" rel="alternate"></link><published>2018-08-30T00:00:00-07:00</published><updated>2018-08-30T00:00:00-07:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-08-30:/data-analysts-projects.html</id><summary type="html">&lt;p&gt;Data Analysts by&amp;nbsp;Project&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Pages&lt;/h2&gt;
+&lt;p&gt;-
+-lists
+-more&amp;nbsp;lists&lt;/p&gt;</content><category term="Projects"></category><category term="Data"></category><category term="Analysis"></category></entry><entry><title>Water Data</title><link href="http://example.com/water-data.html" rel="alternate"></link><published>2018-08-30T00:00:00-07:00</published><updated>2018-09-01T23:30:00-07:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-08-30:/water-data.html</id><summary type="html">&lt;p&gt;Tags: python, pelican, blog
+Slug: water-data
+Authors:John Gage
+Series:example-post-series
+Series_index: 1
+Summary: First post about Water-specific data&amp;nbsp;sources&lt;/p&gt;
+&lt;h2&gt;Water-specific data&amp;nbsp;sources&lt;/h2&gt;
+&lt;p&gt;Add all potential sources: all water&amp;nbsp;districts&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tags: python, pelican, blog
+Slug: water-data
+Authors:John Gage
+Series:example-post-series
+Series_index: 1
+Summary: First post about Water-specific data&amp;nbsp;sources&lt;/p&gt;
+&lt;h2&gt;Water-specific data&amp;nbsp;sources&lt;/h2&gt;
+&lt;p&gt;Add all potential sources: all water&amp;nbsp;districts&lt;/p&gt;</content></entry><entry><title>Pelican theme names</title><link href="http://example.com/pelican-theme-names.html" rel="alternate"></link><published>2018-01-31T00:00:00-08:00</published><updated>2018-01-31T00:00:00-08:00</updated><author><name>John Gage</name></author><id>tag:example.com,2018-01-31:/pelican-theme-names.html</id><summary type="html">&lt;p&gt;&lt;span class="caps"&gt;BT3&lt;/span&gt;-Flat            foundation-default-colours  pelican-blue
+Casper2Pelican          franticworld            pelican-bootstrap3
+Flex                free-agent          pelican-cait
+Just-Read           fresh               pelican-fh5co-marble
+MinimalXY           genus               pelican-hss
+Nuja                graymill            pelican-mockingbird
+&lt;span class="caps"&gt;README&lt;/span&gt;.rst          gum             pelican-simplegrey
+Responsive-Pelican      html5-dopetrope         pelican-sober
+&lt;span class="caps"&gt;SOB&lt;/span&gt;             hyde                pelican-striped-html5up
+SoMA                irfan               pelican-twitchy
+SoMA2               iris                pelicanthemes-generator
+aboutwilson         jesuislibre         photowall
+alchemy             jojo                pjport
+apricot             lab             plumage
+attila              lannisport          pujangga
+backdrop            lazystrap           pure
+basic               lightweight         relapse
+blue-penguin            lovers              resume
+bluegrasshopper         maggner-pelican         semantic-ui
+blueidea            martin-pelican          simple-bootstrap
+bold                martyalchin         smoothie
+bootlex             material            sneakyidea
+bootstrap           materialistic           sora
+bootstrap2          medio               storm
+bootstrap2-dark         mediumfox           subtle
+bricabrac           medius              sundown
+bricks              mg              svbhack
+brownstone          minimalX            svbtle
+built-texts         mnmlist             syte
+bulrush             monospace           taman
+burrito             neat                tuxlite_tbs
+cebong              nest                tuxlite_zf
+chameleon           new-bootstrap2          twenty-html5up
+chunk               nice-blog           uikit
+cid             nikhil-theme            voce
+clean-blog          niu-x2              voidy-bootstrap
+crowsfoot           nmnlist             w3-personal-blog
+dev-random          notebook            water-iris
+dev-random2         notmyidea-cms           waterspill
+dev-random3         notmyidea-cms-fr        waterspill-en
+eevee               octopress           yapeme
+elegant             ops&amp;nbsp;zurb-F5-basic&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;span class="caps"&gt;BT3&lt;/span&gt;-Flat            foundation-default-colours  pelican-blue
+Casper2Pelican          franticworld            pelican-bootstrap3
+Flex                free-agent          pelican-cait
+Just-Read           fresh               pelican-fh5co-marble
+MinimalXY           genus               pelican-hss
+Nuja                graymill            pelican-mockingbird
+&lt;span class="caps"&gt;README&lt;/span&gt;.rst          gum             pelican-simplegrey
+Responsive-Pelican      html5-dopetrope         pelican-sober
+&lt;span class="caps"&gt;SOB&lt;/span&gt;             hyde                pelican-striped-html5up
+SoMA                irfan               pelican-twitchy
+SoMA2               iris                pelicanthemes-generator
+aboutwilson         jesuislibre         photowall
+alchemy             jojo                pjport
+apricot             lab             plumage
+attila              lannisport          pujangga
+backdrop            lazystrap           pure
+basic               lightweight         relapse
+blue-penguin            lovers              resume
+bluegrasshopper         maggner-pelican         semantic-ui
+blueidea            martin-pelican          simple-bootstrap
+bold                martyalchin         smoothie
+bootlex             material            sneakyidea
+bootstrap           materialistic           sora
+bootstrap2          medio               storm
+bootstrap2-dark         mediumfox           subtle
+bricabrac           medius              sundown
+bricks              mg              svbhack
+brownstone          minimalX            svbtle
+built-texts         mnmlist             syte
+bulrush             monospace           taman
+burrito             neat                tuxlite_tbs
+cebong              nest                tuxlite_zf
+chameleon           new-bootstrap2          twenty-html5up
+chunk               nice-blog           uikit
+cid             nikhil-theme            voce
+clean-blog          niu-x2              voidy-bootstrap
+crowsfoot           nmnlist             w3-personal-blog
+dev-random          notebook            water-iris
+dev-random2         notmyidea-cms           waterspill
+dev-random3         notmyidea-cms-fr        waterspill-en
+eevee               octopress           yapeme
+elegant             ops&amp;nbsp;zurb-F5-basic&lt;/p&gt;</content><category term="Pelican"></category></entry><entry><title>Fourth Post - Part 4</title><link href="http://example.com/fourth-post.html" rel="alternate"></link><published>2017-11-30T12:40:00-08:00</published><updated>2017-11-30T12:40:00-08:00</updated><author><name>John Gage</name></author><id>tag:example.com,2017-11-30:/fourth-post.html</id><summary type="html">&lt;p&gt;This is the fourth post of a series of posts. It will demonstrate&amp;nbsp;tables.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the fourth post of a series of posts. It will demonstrate&amp;nbsp;tables.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Technology&lt;/th&gt;
+&lt;th&gt;Impact&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Data&lt;/td&gt;
+&lt;td&gt;Energy&lt;/td&gt;
+&lt;td&gt;Data 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;City&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;td&gt;Data 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;State&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;td&gt;Data 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><category term="python"></category><category term="pelican"></category><category term="blog"></category><category term="tables"></category></entry></feed>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>waterpower</title><link>http://example.com/</link><description>Water data and Jupyter notebooks</description><lastBuildDate>Sun, 02 Sep 2018 08:40:00 -0700</lastBuildDate><item><title>Jupyter Notebooks as Pelican pages</title><link>http://example.com/Jupyter%20notebooks.html</link><description>&lt;p&gt;This is the third post of a series of posts. It will show series an jupyter&amp;nbsp;notebook.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Sun, 02 Sep 2018 07:40:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-09-02:/Jupyter notebooks.html</guid><category>jupyter</category><category>pelican</category></item><item><title>KTC Diagram:Clean Water</title><link>http://example.com/ktc-diagramclean-water.html</link><description>&lt;p&gt;Overview&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Fri, 31 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-31:/ktc-diagramclean-water.html</guid><category>Info</category><category>Pages</category></item><item><title>KTC Water Data</title><link>http://example.com/ktc-water-data.html</link><description>&lt;h2&gt;How to understand water flows in&amp;nbsp;Kibera&lt;/h2&gt;
+&lt;p&gt;There are only ten (10) numbers that are captured about water flow that are useful for the dashboard at the&amp;nbsp;moment.&lt;/p&gt;
+&lt;p&gt;If you have other information, please share&amp;nbsp;it.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The hand-entered daily visual reading of the official water meter, known as the &lt;span class="caps"&gt;WEDC&lt;/span&gt; meter.  Though there are manual entry errors, and gaps, this shows about 1,500 entries over&amp;nbsp;time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Today’s reading was 70,029 liters pumped.  The daily average for the 218 days of 2018 is 70,900 liters a day. That’s on the&amp;nbsp;Googlesheet.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;XIO&lt;/span&gt; readings of:
+2. Borehole Pump electrical current in amps: about 200,000 readings so far this year
+3. Borehole flow in liters per minute: about 200,000 readings so far this year
+4. Borehole tank level in meters: about 200,000 readings so far this year
+5: &lt;span class="caps"&gt;KTC&lt;/span&gt; clean water pump electrical current in amps: about 200,000 readings this year
+6. &lt;span class="caps"&gt;KTC&lt;/span&gt; Potable Water tank level in meters;
+The other 15 &lt;span class="caps"&gt;XIO&lt;/span&gt; data feeds: hot water pump current, mezzanine tank level, etc, are not clearly labeled or&amp;nbsp;calibrated.&lt;/p&gt;
+&lt;p&gt;For the energy-estimating &lt;span class="caps"&gt;HOMER&lt;/span&gt; model, we are moving some of the electrical current sensors to measure overall &lt;span class="caps"&gt;KTC&lt;/span&gt; power usage, and then measure a few feeds&amp;nbsp;separately.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The hand-entered Point of Sale numbers for jerry-can water sales, either at &lt;span class="caps"&gt;KTC&lt;/span&gt; or at the 10,000-liter tank at Olympic Primary.
+These show sales of a few dozens of jerry cans.  Fifty jerry cans is 1000 liters, so we sell a few thousand liters by jerry can,&amp;nbsp;maximum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The hand-entered Point of Sale numbers for bowser, or water-truck sales. These have dropped to almost zero, but have reached sales of ten or twenty thousand liters per&amp;nbsp;day.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimates of water flow to Olympic School proper.  Unclear to me where this data is held, and how it is acquired. I think Robert said he put a meter on the new tank for Olympic, but I didn’t see it.  Please update with what you&amp;nbsp;observed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Daily power outages, now running at five a day.  Over the past year, an average of two power outages a day, depending on how you treat outages that lasted several days. Clearly, this is the single dominant number for a dashboard attempting to capture how a service and retail business functions.  No power, no product, no revenue, no customers. No meaning to marketing or sales initiatives, sales numbers or expenditures if you have no lights, power, Internet, or water pumped to showers or&amp;nbsp;toilets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You mention other numbers that are&amp;nbsp;unfamiliar.&lt;/p&gt;
+&lt;p&gt;What do you mean by “total potable water”? Are you referring to the &lt;span class="caps"&gt;WEDC&lt;/span&gt; meter reading for borehole water pumped? Or total water processed to remove fluoride? That’s a different, smaller number, since we use unprocessed well water to flush the toilets. What is the source of the data? Where is the data&amp;nbsp;held?&lt;/p&gt;
+&lt;p&gt;What do you mean by  &amp;#8220;money earned from selling potable water at different kiosks”? What is this based on? Volume times price minus costs? There is an ancient spread sheet, manually entered, that made guesses in 2015 about costs and prices.  Bad idea to use any ancient estimated cost data to estimate “money earned”.  Might be useful to estimate “money received in payment”. What is the source, where is the data held?  It costs us about &lt;span class="caps"&gt;USD&lt;/span&gt; $ 0.60/ 1000 liters to pump the water from the borehole, about &lt;span class="caps"&gt;USD&lt;/span&gt; $ 2.50/ 1000 liters to process into potable&amp;nbsp;water.&lt;/p&gt;
+&lt;p&gt;What do you mean by &amp;#8220;water being supplied to the school”? How is this measured? What is the source, where is the data held?  What are the&amp;nbsp;numbers?&lt;/p&gt;
+&lt;p&gt;So, after your trip, can you give a clear picture of where 70,000 liters of water a day is&amp;nbsp;going?&lt;/p&gt;
+&lt;p&gt;It’s pretty clear that we process 20,000 liters of waste water a day from the showers and toilets.  Then we throw the 20,000 liters of expensive, treated water away.  It costs us about $2.50/ 1000 liters to process the water. That should be in the&amp;nbsp;dashboard.&lt;/p&gt;
+&lt;p&gt;So, where are the other &lt;span style="color:red"&gt; &lt;em&gt;50,900&lt;/em&gt; &lt;/span&gt; liters a day&amp;nbsp;going?&lt;/p&gt;
+&lt;p&gt;Exactly,&amp;nbsp;where?&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s been like this for three&amp;nbsp;years.&lt;/p&gt;
+&lt;p&gt;Here is a work in progress to capture the &lt;span class="caps"&gt;XIO&lt;/span&gt; data from the real-time &lt;span class="caps"&gt;XIO&lt;/span&gt; web site.   As you can see, one line of Python code brings in 525,000 readings at one-minute intervals of Borehole Pump current from 2017 and 2018.   Five lines, and we have all the &lt;span class="caps"&gt;XIO&lt;/span&gt; data we&amp;nbsp;need.&lt;/p&gt;
+&lt;h4&gt;&lt;span style="color:blue"&gt; &lt;em&gt;Links to Jupyter&amp;nbsp;Notebooks&lt;/em&gt; &lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span style="color:blue"&gt; &lt;a href="https://colab.research.google.com/drive/1XcQYlQx4mYPJjRZNO0gxnHKXhaJhBEgG#scrollTo=S6FGOF65K6Gd"&gt;Online Jupyter notebook analyzing &lt;span class="caps"&gt;XIO&lt;/span&gt;&amp;nbsp;data&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Fri, 31 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-31:/ktc-water-data.html</guid><category>Water</category></item><item><title>Data analysis links</title><link>http://example.com/data-analysis-links.html</link><description>&lt;p&gt;Links to specific analysis&amp;nbsp;topics&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/data-analysis-links.html</guid><category>Berkeley</category></item><item><title>Data Analysts</title><link>http://example.com/data-analysts.html</link><description>&lt;p&gt;Discipline&amp;nbsp;experts&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/data-analysts.html</guid><category>Pages</category></item><item><title>Data Analysts Projects</title><link>http://example.com/data-analysts-projects.html</link><description>&lt;p&gt;Data Analysts by&amp;nbsp;Project&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/data-analysts-projects.html</guid><category>Projects</category><category>Data</category><category>Analysis</category></item><item><title>Water Data</title><link>http://example.com/water-data.html</link><description>&lt;p&gt;Tags: python, pelican, blog
+Slug: water-data
+Authors:John Gage
+Series:example-post-series
+Series_index: 1
+Summary: First post about Water-specific data&amp;nbsp;sources&lt;/p&gt;
+&lt;h2&gt;Water-specific data&amp;nbsp;sources&lt;/h2&gt;
+&lt;p&gt;Add all potential sources: all water&amp;nbsp;districts&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/water-data.html</guid></item><item><title>Pelican theme names</title><link>http://example.com/pelican-theme-names.html</link><description>&lt;p&gt;&lt;span class="caps"&gt;BT3&lt;/span&gt;-Flat            foundation-default-colours  pelican-blue
+Casper2Pelican          franticworld            pelican-bootstrap3
+Flex                free-agent          pelican-cait
+Just-Read           fresh               pelican-fh5co-marble
+MinimalXY           genus               pelican-hss
+Nuja                graymill            pelican-mockingbird
+&lt;span class="caps"&gt;README&lt;/span&gt;.rst          gum             pelican-simplegrey
+Responsive-Pelican      html5-dopetrope         pelican-sober
+&lt;span class="caps"&gt;SOB&lt;/span&gt;             hyde                pelican-striped-html5up
+SoMA                irfan               pelican-twitchy
+SoMA2               iris                pelicanthemes-generator
+aboutwilson         jesuislibre         photowall
+alchemy             jojo                pjport
+apricot             lab             plumage
+attila              lannisport          pujangga
+backdrop            lazystrap           pure
+basic               lightweight         relapse
+blue-penguin            lovers              resume
+bluegrasshopper         maggner-pelican         semantic-ui
+blueidea            martin-pelican          simple-bootstrap
+bold                martyalchin         smoothie
+bootlex             material            sneakyidea
+bootstrap           materialistic           sora
+bootstrap2          medio               storm
+bootstrap2-dark         mediumfox           subtle
+bricabrac           medius              sundown
+bricks              mg              svbhack
+brownstone          minimalX            svbtle
+built-texts         mnmlist             syte
+bulrush             monospace           taman
+burrito             neat                tuxlite_tbs
+cebong              nest                tuxlite_zf
+chameleon           new-bootstrap2          twenty-html5up
+chunk               nice-blog           uikit
+cid             nikhil-theme            voce
+clean-blog          niu-x2              voidy-bootstrap
+crowsfoot           nmnlist             w3-personal-blog
+dev-random          notebook            water-iris
+dev-random2         notmyidea-cms           waterspill
+dev-random3         notmyidea-cms-fr        waterspill-en
+eevee               octopress           yapeme
+elegant             ops&amp;nbsp;zurb-F5-basic&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Wed, 31 Jan 2018 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:example.com,2018-01-31:/pelican-theme-names.html</guid><category>Pelican</category></item><item><title>Fourth Post - Part 4</title><link>http://example.com/fourth-post.html</link><description>&lt;p&gt;This is the fourth post of a series of posts. It will demonstrate&amp;nbsp;tables.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Nov 2017 12:40:00 -0800</pubDate><guid isPermaLink="false">tag:example.com,2017-11-30:/fourth-post.html</guid><category>python</category><category>pelican</category><category>blog</category><category>tables</category></item></channel></rss>

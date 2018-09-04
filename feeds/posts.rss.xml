@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>waterpower - posts</title><link>http://example.com/</link><description>Water data and Jupyter notebooks</description><lastBuildDate>Sun, 02 Sep 2018 08:40:00 -0700</lastBuildDate><item><title>Jupyter Notebooks as Pelican pages</title><link>http://example.com/Jupyter%20notebooks.html</link><description>&lt;p&gt;This is the third post of a series of posts. It will show series an jupyter&amp;nbsp;notebook.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Sun, 02 Sep 2018 07:40:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-09-02:/Jupyter notebooks.html</guid><category>jupyter</category><category>pelican</category></item><item><title>Data analysis links</title><link>http://example.com/data-analysis-links.html</link><description>&lt;p&gt;Links to specific analysis&amp;nbsp;topics&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/data-analysis-links.html</guid><category>Berkeley</category></item><item><title>Data Analysts</title><link>http://example.com/data-analysts.html</link><description>&lt;p&gt;Discipline&amp;nbsp;experts&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/data-analysts.html</guid><category>Pages</category></item><item><title>Data Analysts Projects</title><link>http://example.com/data-analysts-projects.html</link><description>&lt;p&gt;Data Analysts by&amp;nbsp;Project&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/data-analysts-projects.html</guid><category>Projects</category><category>Data</category><category>Analysis</category></item><item><title>Water Data</title><link>http://example.com/water-data.html</link><description>&lt;p&gt;Tags: python, pelican, blog
+Slug: water-data
+Authors:John Gage
+Series:example-post-series
+Series_index: 1
+Summary: First post about Water-specific data&amp;nbsp;sources&lt;/p&gt;
+&lt;h2&gt;Water-specific data&amp;nbsp;sources&lt;/h2&gt;
+&lt;p&gt;Add all potential sources: all water&amp;nbsp;districts&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:example.com,2018-08-30:/water-data.html</guid></item><item><title>Pelican theme names</title><link>http://example.com/pelican-theme-names.html</link><description>&lt;p&gt;&lt;span class="caps"&gt;BT3&lt;/span&gt;-Flat            foundation-default-colours  pelican-blue
+Casper2Pelican          franticworld            pelican-bootstrap3
+Flex                free-agent          pelican-cait
+Just-Read           fresh               pelican-fh5co-marble
+MinimalXY           genus               pelican-hss
+Nuja                graymill            pelican-mockingbird
+&lt;span class="caps"&gt;README&lt;/span&gt;.rst          gum             pelican-simplegrey
+Responsive-Pelican      html5-dopetrope         pelican-sober
+&lt;span class="caps"&gt;SOB&lt;/span&gt;             hyde                pelican-striped-html5up
+SoMA                irfan               pelican-twitchy
+SoMA2               iris                pelicanthemes-generator
+aboutwilson         jesuislibre         photowall
+alchemy             jojo                pjport
+apricot             lab             plumage
+attila              lannisport          pujangga
+backdrop            lazystrap           pure
+basic               lightweight         relapse
+blue-penguin            lovers              resume
+bluegrasshopper         maggner-pelican         semantic-ui
+blueidea            martin-pelican          simple-bootstrap
+bold                martyalchin         smoothie
+bootlex             material            sneakyidea
+bootstrap           materialistic           sora
+bootstrap2          medio               storm
+bootstrap2-dark         mediumfox           subtle
+bricabrac           medius              sundown
+bricks              mg              svbhack
+brownstone          minimalX            svbtle
+built-texts         mnmlist             syte
+bulrush             monospace           taman
+burrito             neat                tuxlite_tbs
+cebong              nest                tuxlite_zf
+chameleon           new-bootstrap2          twenty-html5up
+chunk               nice-blog           uikit
+cid             nikhil-theme            voce
+clean-blog          niu-x2              voidy-bootstrap
+crowsfoot           nmnlist             w3-personal-blog
+dev-random          notebook            water-iris
+dev-random2         notmyidea-cms           waterspill
+dev-random3         notmyidea-cms-fr        waterspill-en
+eevee               octopress           yapeme
+elegant             ops&amp;nbsp;zurb-F5-basic&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Wed, 31 Jan 2018 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:example.com,2018-01-31:/pelican-theme-names.html</guid><category>Pelican</category></item><item><title>Fourth Post - Part 4</title><link>http://example.com/fourth-post.html</link><description>&lt;p&gt;This is the fourth post of a series of posts. It will demonstrate&amp;nbsp;tables.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John Gage</dc:creator><pubDate>Thu, 30 Nov 2017 12:40:00 -0800</pubDate><guid isPermaLink="false">tag:example.com,2017-11-30:/fourth-post.html</guid><category>python</category><category>pelican</category><category>blog</category><category>tables</category></item></channel></rss>
